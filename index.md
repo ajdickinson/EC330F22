@@ -9,7 +9,7 @@ Course material links:
   - Problem sets
 	- PS01 (TBD)
   - External resources
-	- [Triumph of the Cities](http://www.smart-city.institute/library/book/triumph_of_the_city.pdf)
+	- [Triumph of the Cities](resources/Triumph-of-the-City-Edward-Glaeser.pdf)
 	- [Urban Economics (O'Sullivan)](resources/O'Sullivan_Urban_Economics_8th.pdf) 
 
 ## Schedule
