@@ -1,8 +1,9 @@
-# Urban Economics - Fall 2021
+# Urban Economics (EC330) F22
 
-Public slide repository for EC330: Urban Economics and Regional Studies by Andrew Dickinson at the University of Oregon.
+## Instructor: Andrew Dickinson (adickin3@uoregon.edu)
+#### GE: Jose Rojas (jrojas@uoregon.edu)
 
-Course material links:
+Public slide repository for EC330 at the University of Oregon
 
 Course material links:
   - [Syllabus](syllabus/working_syllabus_fall22.pdf)
