@@ -1,180 +1,8 @@
-.remark-slide-content {
-  background-color: #FAFAFA;
-    border-top: 80px solid #2e3440;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.5;
-  padding: 1em 2em 1em 2em
-}
-.title-slide .inverse .remark-slide-content {
-  background-color: #FAFAFA;
-}
-.remark-slide-content {
-  background-color: #ffffff;
-  font-size: 24px;
-  /* font-weight: 300; */
-  /* line-height: 1.5; */
-  /* padding: 1em 2em 1em 2em; */
-}
-.inverse {
-  background-color: #2e3440;
-    text-shadow: none;
-}
-
-/* Removes colored bar from top of the slide resulting in a clear slide */
-  .clear{
-    border-top: 0px solid #FAFAFA;
-  }
-
-h1 {
-  font-weight: normal;
-  margin-top: -95px;
-  margin-left: -00px;
-  color: #FAFAFA;
-}
-
-h2, h3, h4 {
-  padding-top: -15px;
-  padding-bottom: 00px;
-  color: #041E42;
-    text-shadow: none;
-  font-weight: 400;
-  text-align: left;
-  margin-left: 00px;
-  margin-bottom: -10px;
-}
-
-.remark-slide-content h1 {
-  font-size: 45px;
-}
-
-.remark-slide-content h2 {
-  font-size: 35px;
-}
-
-.remark-slide-content h3 {
-  font-size: 30px;
-}
-
-.left-column h2, .left-column h3, .left-column h4 {
-  color: #777;
-}
-
-.left-column h2:last-of-type, .left-column h3:last-child {
-  color: #1A292C;
-}
-
-.title-slide {
-  background-color: #FAFAFA;
-    border-top: 80px solid #FAFAFA;
-}
-
-.title-slide h1  {
-  color: #2e3440;
-    font-size: 40px;
-  text-shadow: none;
-  font-weight: 400;
-  text-align: left;
-  margin-left: 15px;
-  padding-top: 80px;
-}
-.title-slide h2  {
-  margin-top: -25px;
-  padding-bottom: -20px;
-  color: #b48ead;
-    text-shadow: none;
-  font-weight: 350;
-  font-size: 35px;
-  text-align: left;
-  margin-left: 15px;
-}
-.title-slide h3  {
-  color: #1A292C;
-    text-shadow: none;
-  font-weight: 300;
-  font-size: 25px;
-  text-align: left;
-  margin-left: 15px;
-  margin-bottom: -30px;
-}
-
-hr, .title-slide h2::after, .mline h1::after {
-  content: '';
-  display: block;
-  border: none;
-  background-color: #EB811B;
-    color: #EB811B;
-    height: 1px;
-}
-
-hr, .mline h1::after {
-  margin: 1em 15px 0 15px;
-}
-
-.title-slide h2::after {
-  margin: 10px 15px 35px 0;
-}
-
-.mline h1::after {
-  margin: 10px 15px 0 15px;
-}
-
-.remark-slide-number {
-  font-size: 13pt;
-  color: #272822;
-    opacity: 1;
-}
-.inverse .remark-slide-number {
-  font-size: 13pt;
-  color: #FAFAFA;
-    opacity: 1;
-}
-
-/* turns off slide numbers for title page: https://github.com/gnab/remark/issues/298 */
-  .title-slide .remark-slide-number {
-    display: none;
-  }
-
-.remark-inline-code {
-  /* background: #F5F5F5; /* lighter */
-    background: #e7e8e2; /* darker */
-    border-radius: 3px;
-  padding: 4px;
-}
 
 /* Create a highlighted class called 'hi'  */
-.l {
-  font-weight: 300;
-  color: #2e3440;
-}
-.h {
-  font-weight: 600;
-  color: #2e3440;
-}
 .hi {
   font-weight: 600;
-  color: #4c566a
-}
-.hii {
-  font-weight: 600;
-  color: #b48ead !important;
-}
-
-.hi-blue {
-  font-weight: 600;
-  color: #81a1c1;
-}
-.hi-orange {
-  font-weight: 600;
-  color: #d08770 !important;
-}
-.hi-yellow {
-  font-weight: 600;
-  color: #ebcb8b !important;
-}  
-.hi-gold {
-  font-weight: 600;
-  color: #FFC425 !important;
+  color: #e64173 !important;
 }
 .hi-pink {
   font-weight: 600;
@@ -192,38 +20,35 @@ hr, .mline h1::after {
   font-weight: 600;
   color: #6A5ACD !important;
 }
+.hi-orange {
+  font-weight: 600;
+  color: #FFA500 !important;
+}
 .hi-yellow{
   font-weight: 600;
   color: #D8BD44 !important;
 }
 .hi-green {
   font-weight: 600;
-  color: #8fbcbb !important;
+  color: #7CAE96 !important;
 }
 .hi-grey {
   font-weight: 600;
   color: #8AA19E !important;
 }
-.hi-light-blue {
+.hi-blue {
   font-weight: 600;
   color: #54778B !important;
 }
 .hi-red {
   font-weight: 600;
-  color: #bf616a !important;
-}
-.hi-orange {
-  font-weight: 600;
-  color: #d08770 !important;
+  color: #fb6107 !important;
 }
 .hi-white {
   font-weight: 600;
   color: #ffffff !important;
 }
 /* Pink text */
-.blue {
-  color: #041E42 !important;
-}
 .pink {
   color: #e64173 !important;
 }
@@ -237,32 +62,26 @@ hr, .mline h1::after {
 }
 /* Purple-ish ("slateblue") text */
 .purple {
-  color: #b48ead !important;
+  color: #6A5ACD !important;
 }
 /* Orange ("orange") text */
 .orange {
-  color: #E35205 !important;
-}
-.orange2 {
   color: #FFA500 !important;
 }
-.gold {
-  color: #FFC425 !important;
-}
 .yellow{
-  color: #ebcb8b !important;
+  color: #D8BD44 !important;
 }
 .green {
-  color: #8fbcbb !important;
+  color: #7CAE96 !important;
 }
 .grey {
   color: #8AA19E !important;
 }
-.light-blue {
+.blue {
   color: #54778B !important;
 }
 .red {
-  color: #bf616a !important;
+  color: #fb6107 !important;
 }
 
 /* Grey text */
@@ -279,16 +98,6 @@ hr, .mline h1::after {
 }
 .black {
   color: #000000 !important;
-}
-.orange {
-  color: #d08770 !important;
-}
-/* Bold and italic */
-.b {
-  font-weight: bold;
-}
-.it {
-  font-style:  italic;
 }
 
 /* Mono-spaced font */
@@ -359,7 +168,7 @@ hr, .mline h1::after {
 .qa {
   font-weight: 500;
   /* color: #314f4f !important; */
-  color: #041E42 !important;
+  color: #e64173 !important;
   font-family: 'Zilla Slab' !important;
 }
 
@@ -372,8 +181,22 @@ hr, .mline h1::after {
   color: #cccccc !important;
 }
 
+.remark-slide-content {
+  background-color: #ffffff;
+  font-size: 24px;
+  /* font-weight: 300; */
+  /* line-height: 1.5; */
+  /* padding: 1em 2em 1em 2em; */
+}
+
 .hide-count .remark-slide-number {
   display: none;
+}
+
+.inverse {
+  background-color: #23373B;
+  text-shadow: 0 0 20px #333;
+  /* text-shadow: none; */
 }
 
 .title-slide {
@@ -386,8 +209,8 @@ hr, .mline h1::after {
 }
 
 .dark-slide {
-  background-color: #041E42;
-  border-top: 0px solid #041E42;
+  background-color: #23373B;
+  border-top: 0px solid #23373B;
 }
 .dark-slide .remark-slide-number {
   display: none;
@@ -437,17 +260,17 @@ hr, .mline h1::after {
   font-size: 70%;
 }
 
-/*.inverse > h2 {
+.inverse > h2 {
   color: #ffffff;
   font-weight: 300;
   font-size: 40px;
   /*font-style: italic;*/
-/*  margin-top: -25px;
-}*/
+  margin-top: -25px;
+}
 .title-slide > h2  {
   margin-top: -25px;
   padding-bottom: -20px;
-  color: rgba(4, 30, 66);
+  color: rgba(249, 38, 114, 0.75);
   text-shadow: none;
   font-weight: 300;
   font-size: 35px;
@@ -473,8 +296,7 @@ hr, .mline h1::after {
   width: 31%;
 }
 .more-right ~ * {
-  float: right;
-  width: 80%;
+  clear: both;
 }
 
 /* Remove orange line */
@@ -485,11 +307,4 @@ hr, .title-slide h2::after, .mline h1::after {
   background-color: #e5e5e5;
   color: #e5e5e5;
   height: 1px;
-}
-
-/* change link color */
-a, a > code {
-  color: #b48ead; /*default: rgb(249, 38, 114); || sets color of links */
-  text-decoration: none; /* turns off background coloring of links */
-  font-weight: 200;
 }

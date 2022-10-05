@@ -31,5 +31,7 @@ __Set 01:__ Introduction to urban economics (remote)
 __Set 02:__ Review + the 5 axioms of urban econmics
 - [slide deck](slides/002-review/02-review.html)
 
+__Set 03:__ Existence of cities
+- [slide deck](slides/003-size/03-size.html)
 
 
