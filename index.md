@@ -10,7 +10,7 @@ Public slide repository for EC330 at the University of Oregon
 Course material links:
   - [Syllabus](syllabus/working_syllabus_fall22.pdf)
   - Problem sets
-	- PS01 (problem-sets/ps01/ps01.pdf)
+	- [PS01](problem-sets/ps01/ps01.pdf)
   - External resources
 	- [Triumph of the Cities](resources/Triumph-of-the-City-Edward-Glaeser.pdf)
 	- [Urban Economics (O'Sullivan)](resources/O'Sullivan_Urban_Economics_8th.pdf) 
