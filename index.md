@@ -17,10 +17,11 @@ Course material links:
 
 ## Schedule
 
-__Lectures:__ 10:00 to 11:20 Tuesday, Thursday
-__Office hours:__ 4:00-5:00p Th; 10:00-11:00a F; (after class) 5:20-6:00p MW
+__Lectures:__ MW, 4:00-5:20p
 
-__Reading:__ To
+__Office hours:__ F 10:00-11:00a; MW 5:20-6:00p (after class)
+
+__Reading:__
 - week01: buy the book and read introduction
 - week02: buy the book, read intro and chapter 01
   
