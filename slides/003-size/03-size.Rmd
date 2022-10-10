@@ -29,14 +29,14 @@ pacman::p_load(
 ## source color script from local directory
 ## comment out and replace colors if user is not Andrew
 source("~/Documents/scripts/colors/colors.R")
-blue = '#4c566a'
-purple = '#b48ead'
-red  = '#bf616a'
+blue <- "#4c566a"
+purple <- "#b48ead"
+red <- "#bf616a"
 # XaringanExtra functions
 ## Tile view
-xaringanExtra::use_tile_view()
+# xaringanExtra::use_tile_view()
 ## Scribble
-xaringanExtra::use_scribble()
+# xaringanExtra::use_scribble()
 # Knitr options
 opts_chunk$set(
   comment = "#>",
@@ -50,9 +50,10 @@ options(device = function(file, width, height) {
   svg(tempfile(), width = width, height = height)
 })
 
-theme_curves <- theme_ipsum() + theme(axis.line = element_line(),
-        panel.grid.minor = element_blank())
-
+theme_curves <- theme_ipsum() + theme(
+  axis.line = element_line(),
+  panel.grid.minor = element_blank()
+)
 ```
 
 name: schedule
@@ -505,18 +506,16 @@ Each countries .hi[PPF] is described by:
 .hi[PPFs:]
 
 ```{R, ppf, echo = F, fig.height = 5, fig.width = 8, dev = "svg"}
-county_one <- function(x) 10-2*x
-county_two <- function(x) 20-5*x
-ggplot(data.frame(x=c(0, 10)), aes(x)) + 
-  stat_function(fun=county_one, col = blue)+
-  geom_vline(xintercept =0, size = 0.5)+
-  geom_hline(yintercept =0, size = 0.5)+
-  theme_ipsum(base_family = 'Fira Sans Book', base_size = 8) +
-  ylim(0,22)+
-  geom_text(x=0, y=10, label="Country A")+
+county_one <- function(x) 10 - 2 * x
+county_two <- function(x) 20 - 5 * x
+ggplot(data.frame(x = c(0, 10)), aes(x)) +
+  stat_function(fun = county_one, col = blue) +
+  geom_vline(xintercept = 0, size = 0.5) +
+  geom_hline(yintercept = 0, size = 0.5) +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
+  ylim(0, 22) +
+  geom_text(x = 0, y = 10, label = "Country A") +
   labs(x = "Oil", y = "Guns")
-
-
 ```
 
 ---
@@ -526,20 +525,18 @@ ggplot(data.frame(x=c(0, 10)), aes(x)) +
 .hi[PPFs:] 
 
 ```{R, ppf2, echo = F, fig.height = 5, fig.width = 8, dev = "svg"}
-county_one <- function(x) 10-2*x
-county_two <- function(x) 20-5*x
-ggplot(data.frame(x=c(0, 10)), aes(x)) + 
-  stat_function(fun=county_one, col = blue)+
-  stat_function(fun=county_two, col = purple)+
-  geom_vline(xintercept =0, size = 0.5)+
-  geom_hline(yintercept =0, size = 0.5)+
-  theme_ipsum(base_family = 'Fira Sans Book', base_size = 8) +
-  ylim(0,22)+
-  geom_text(x=0, y=10, label="Country A")+
-  geom_text(x=0, y = 20, label="Country B")+
+county_one <- function(x) 10 - 2 * x
+county_two <- function(x) 20 - 5 * x
+ggplot(data.frame(x = c(0, 10)), aes(x)) +
+  stat_function(fun = county_one, col = blue) +
+  stat_function(fun = county_two, col = purple) +
+  geom_vline(xintercept = 0, size = 0.5) +
+  geom_hline(yintercept = 0, size = 0.5) +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
+  ylim(0, 22) +
+  geom_text(x = 0, y = 10, label = "Country A") +
+  geom_text(x = 0, y = 20, label = "Country B") +
   labs(x = "Oil", y = "Guns")
-
-
 ```
 
 ???
@@ -762,10 +759,9 @@ Now relax the final assumption .hi[A03]
 
 --
 
-With economies of scale (.hi[A4.]) factories can outproduce households
+With economies of scale factories can outproduce households by lowering average costs
 - Use indivisible inputs (machines)
 - Allow workers to specialize
-- Lower average costs
 
 --
 
@@ -774,14 +770,10 @@ In order to pay for labor, a factory must pay such that they are indifferent bet
 --
 
 However, land scarcity .hi[binds] and rents near the factory begin to increase
-- Wages increase due to .hi[locational equilibirum]
+- Wages increase due to .hi[locational equilibrium]
 
-
-
-
-
-
-
+---
+# Factory area
 
 .hi[Example:]
 
@@ -814,7 +806,7 @@ Under what condition will a consumer purchase the shirt from a factory?
 
 --
 
-.qa[Questions]:
+.hi[Questions]:
 
 1. Graph the cost of shirts throughout the entire region
 
@@ -836,32 +828,31 @@ Under what condition will a consumer purchase the shirt from a factory?
 
 ```{R, factory_town, echo=F,fig.height = 4, fig.width = 8, dev = "svg", cache=T}
 
-#create functions. didnt really end up using. probably better way to create this figure
-west <- function(x) 37 - .5*x
-east <- function(x) 12 +.2*x
+# create functions. didnt really end up using. probably better way to create this figure
+west <- function(x) 37 - .5 * x
+east <- function(x) 12 + .2 * x
 
-ggplot(data.frame(x=c(0, 100)), aes(x)) + 
-  stat_function(fun=west, col = NA)+
-  geom_segment(x = 0, xend =   50, y = 37, yend = 12)+
-  geom_segment(x=  50, xend = 100, y = 12, yend = 22)+
-  geom_segment(x = 50, xend = 50, y= 0, yend = 12)+
-  geom_segment(x=0, xend = 50, y= 12, yend = 12, linetype =  "dashed")+
-  geom_vline(xintercept =0, size = 0.5)+
-  geom_hline(yintercept =0, size = 0.5)+
-  xlim(0,100)+
-  ylim(-3,40)+
-  ggthemes::theme_pander(base_family = "LM Roman 10")+
-  scale_x_discrete(name ="Distance")+
-  geom_text(aes(x = 25, y= -1, label = "West"))+
-  geom_text(aes(x = 75, y= -1, label = "East"))+
-  geom_text(aes(x = 2, y= 37.5, label = "$37"))+
-  geom_text(aes(x = 98, y= 22.5, label = "$22"))+
-  labs(y=  "Cost (in Dollars)", title = "Factory Town Graph")+
-  geom_text(aes(x = 97, y= -2, label = "50 mi E"))+
-    geom_text(aes(x = 3, y= -2, label = "50 mi W"))
-
-
-
+ggplot(data.frame(x = c(0, 100)), aes(x)) +
+  stat_function(fun = west, col = NA) +
+  geom_segment(x = 0, xend = 50, y = 37, yend = 12) +
+  geom_segment(x = 50, xend = 100, y = 12, yend = 22) +
+  geom_segment(x = 50, xend = 50, y = 0, yend = 12) +
+  geom_segment(x = 0, xend = 50, y = 12, yend = 12, linetype = "dashed") +
+  geom_vline(xintercept = 0, size = 0.5) +
+  geom_hline(yintercept = 0, size = 0.5) +
+  xlim(0, 100) +
+  ylim(-3, 40) +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
+  scale_x_discrete(name = "Distance") +
+  geom_text(aes(x = 25, y = -1, label = "West")) +
+  geom_text(aes(x = 75, y = -1, label = "East")) +
+  geom_text(aes(x = 2, y = 37.5, label = "$37")) +
+  geom_text(aes(x = 98, y = 22.5, label = "$22")) +
+  labs(y = "Cost (in Dollars)", title = "Factory Town Graph") +
+  geom_text(aes(x = 97, y = -2, label = "50 mi E")) +
+  geom_text(aes(x = 3, y = -2, label = "50 mi W")) +
+  theme(panel.grid.major.y = element_blank(),
+        panel.grid.minor.y = element_blank())
 ```
 
 ---
@@ -936,6 +927,7 @@ __Result:__ Factory town!
 1. [Paradox](#paradox)
 ]
 
+hello
 
 ###Existence
 .smallest[

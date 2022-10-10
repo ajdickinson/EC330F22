@@ -36,6 +36,9 @@ __Set 02:__ Review + the 5 axioms of urban econmics
 __Set 03:__ Existence of cities
 - [slide deck](slides/003-size/03-size.html)
 
+__Set 04:__ Clustering, city size, and growth
+- [slide deck](slides/004-growth/04-growth.html)
+
 
 
 

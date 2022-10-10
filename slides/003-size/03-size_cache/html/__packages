@@ -1,10 +1,3 @@
-base
-methods
-datasets
-utils
-grDevices
-graphics
-stats
 broom
 here
 tidyverse
@@ -25,7 +18,6 @@ gridExtra
 kableExtra
 magrittr
 knitr
-parallel
 tufte
 emo
 ggrepel
@@ -36,3 +28,4 @@ maps
 mapdata
 spData
 huxtable
+shiny
