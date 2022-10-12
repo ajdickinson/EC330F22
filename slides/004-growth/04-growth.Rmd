@@ -63,7 +63,7 @@ options(device = function(file, width, height) {
 ---
 # Housekeeping
 
-.hi[PS01 due on Wed, Oct 12th @ 11:59p]
+.hi[PS01 due on Sun, Oct 16th @ 11:59p]
 - We will be going over material for questions 4 & 5 today
 - Must be submitted on Canvas as a PDF
 
@@ -91,7 +91,10 @@ Two .hi[incentives:]
   
 --
 
+<br>
+
 .hi-blue[Other questions:]
+
  .center[.h[Why do cities grow beyond one factory?]]
  .center[.hi[Why are there differences in size across cities?]]
  .center[.hii[Where do cities emerge?]]
@@ -99,10 +102,10 @@ Two .hi[incentives:]
   
 ---
 class: inverse, middle
-# Firm clustering
+# _Why do firms cluster?_
 
 ---
-# Clustering
+# _Why do firms cluster?_
 
 Can we explain why there might be .hii[more than] one firm?
 - Which of the .h[5 axioms] is relevant to the number of firms within a city?
@@ -178,46 +181,61 @@ Which axiom do these data relate to?
 
 ---
 name: cluster
-# Data
+# _Why do firms cluster?_
 
-But wouldn't firm entry .hi-red[reduce] existing firm profits?
+Why do .hi[within-industry] firms locate in same city?
 
 --
 
-Why might profit increase ( $\Pi \uparrow$ ) initially as more firms .hi[cluster]?
+Why might profits .hi-blue[increase] as more firms cluster?
 
 <br>
 
 --
 
-Firms may .hi-blue[mutually benefit] from clustering due to:
+There exists some economic mechanisms that incentives .hi[within-industry] firms locate near one another
+- We categorize these mechanisms broadly as .hi[agglomeration economies]
+
+---
+# Agglomeration
+
+.hi[Definition: Agglomeration Economies]
 
 --
 
-- .hii[(i).] Sharing intermediate inputs
-- .hii[(ii).] Labor matching 
-- .hii[(iii).] Knowledge spillovers
-- .hii[(iv).] Labor pool sharing
+_Benefits that come when firms and people locate near one another together in cities and industrial clusters_
+
+--
+
+> Agglomeration economies are the benefits that come when firms and people locate near one another together in cities and industrial clusters. These benefits all ultimately come from transport costs savings: the only real difference between a nearby firm and one across the continent is that it is easier to connect with a neighbor. Of course, transportation costs must be interpreted broadly, and they include the difficulties in exchanging goods, people, and ideas
+
+Source: [Ed. Glaeser](https://www.nber.org/chapters/c7977.pdf)
+
 
 ---
 class: inverse, middle
-# Clustering
+# Benefits of agglomeration 
+
+- .hi-white[(i) Sharing intermediate inputs]
+- .hi-white[(ii) Labor matching]
+- .hi-white[(iii) Knowledge spillovers]
 
 ---
-# (i). Sharing inputs
+# Agglomeration - Sharing inputs
 
-Similar firms .hi-blue[share inputs] to benefit from economies of scale
+Similar firms .hi[share inputs] to benefit from economies of scale
 
 --
 
-.hi-blue[Example:] High tech firms
+Firms will share intermediate input suppliers to help .hi-red[reduce costs]
+- If costs .hi-red[go down], then $\Pi$ goes .hi-blue[up]
+
+--
+
+.hi[Example:] High tech firms
 - Rapidly changing goods that require sophisticated intermediate inputs
 - Electronic components and testing facilities
-    
---
-
-Firms will .hi-blue[share intermediate input suppliers] to help .hi-red[reduce costs]
-- If costs .hi-red[go down], then $\Pi$ goes .hi-blue[up]
+- Firms rent capital/labor from intermediate firms
 
 --
 
@@ -226,7 +244,12 @@ Firms will .hi-blue[share intermediate input suppliers] to help .hi-red[reduce c
 There exists an .hi[optimal cluster size] that maximizes input sharing benefits
 
 ---
-# (ii). Labor matching
+# Example - Sharing inputs
+
+
+
+---
+# Agglomeration - Labor matching
 
 In models of labor markets, we typically assume that firms and workers match perfectly
 
@@ -242,7 +265,7 @@ In the real world this is rarely the case
 A large city will reduce these costs
 
 ---
-# (ii). Labor matching
+# Agglomeration - Labor matching
 
 Consider a labor pool of software programmers
 
@@ -261,78 +284,11 @@ Clustering .hi[attracts] more of the kind of workers they want
 Better for firm if they can find a worker to fill role immediately
 - Firms have higher probability in a cluster
 
----
-# (ii). Labor matching: HS model
-
-.hi[Model assumptions:]
-
-
-.smallererer[.hi[(i). Variation in worker skills:] Workers have a unique skill set described by an "address" on a circle]
-
---
-
-.smallererer[.hi[(ii). Firm entry:] Firms enter the market and pick a good with an associated skill requirement]
-
---
-
-.smallererer[.hi[(iii). Training costs:] Workers incur the cost associated with closing the gap on the circle between their own skill and the skill requirement to produce the good]
-
---
-
-.smallererer[.hi[(iv). Competition for workers:] Each firm offers a wage to anyone who meets the skill requirement; workers accept the highest net wage
-- Net wage $=$ gross wage - training costs]
-
---
-
-.smallererer[Additionally, assume]
-
-- .smallererer[.hi[A4: Production is subject to economies of scale] to ensure firms hire more than one worker]
-
-- .smallererer[.hi[A5: Competition generates zero economic profit] to ensure perfect competition]
 
 ---
-# (ii). Labor matching: HS model
+# Agglomeration - Knowledge spillovers
 
-.hi[Consider two cities:] 
-.pull-left[
-- City A: two firms, four workers (four skill types)
-]
-
-.pull-right[
-- City B: three firms, six workers (six skill types)
-]
-
---
-
-.pull-left[
-![:scale 80%](figures/four-skills.png)
-]
-  
---
-
-.pull-right[
-![:scale 80%](figures/six-skills.png)
-]
-
----
-class: clear
-count: false
-
-![scale 50%](figures/table3-2.png)
-
-Increases in the number of workers .hi-red[decreases] mismatches + training costs
-
---
-
-.hi[Implications:]
-- Presence of a large workforce attracts firms that compete for workers
-- Higher wages incentivize high-skilled workers to live in large cities
-
-
----
-# (iii). Knowledge spillovers
-
-.hi-blue[Knowledge spillovers:] Exchange of ideas across individuals within a space
+.hi[Knowledge spillovers:] Exchange of ideas across individuals within a space
 
 --
 
@@ -340,7 +296,7 @@ Increases in the number of workers .hi-red[decreases] mismatches + training cost
   
 --
 
-.hi-blue[Examples:]
+.hi[Examples:]
 .pull-left[
 - Graduate school
 - Jam sessions
@@ -362,81 +318,57 @@ $\Rightarrow$ Knowledge Spillovers $\uparrow$ $\longrightarrow$ Productivity $\u
 .hi-blue[Urban settings:] Silicon Valley, Wall Street, etc.
 
 ---
-
-# Agglomeration economies
-
-.ul[.hi-blue[Definition]]: .hi[Agglomeration Economies]
-
---
-
-- Benefits that come when firms and people locate near one another together in cities and industrial clusters
-
---
-
-> Agglomeration economies are the benefits that come when firms and people locate near one another together in cities and industrial clusters. These benefits all ultimately come from transport costs savings: the only real difference between a nearby firm and one across the continent is that it is easier to connect with a neighbor. Of course, transportation costs must be interpreted broadly, and they include the difficulties in exchanging goods, people, and ideas
-
-Source: [Ed. Glaeser](https://www.nber.org/chapters/c7977.pdf)
-
----
-
 name: urban
-# Agglomeration economies
+# Types of agglomeration
 
-Let's refine our language with definitions:
+Distinctions between two types of agglomeration
 
 --
 
 .hi[(i) _Localization economies_]
 
-- The economic forces that cause clustering that act on firms .blue[_within the same_] industry
+- Economic forces that incentivise clustering of firms .hi[within-industry]
 - Local to a particular industry
-- Example: Firms in the software industry cluster in Silicon Valley
+- Examples: Silicon Valley; biopharmaceuticals 
 
 --
   
 .hii[(ii) _Urbanization economies_]
 
-- The economic forces that cause clustering that act on firms .blue[_across different_] industries
+- Economic forces that cause clustering of firms .hii[across-industry]
 - The presence of one firm attracts firms from different industries
-- Example: Universities; corporate headquarters
+- Examples: Universities; corporate headquarters
   
 ---
 
-# Localization Economies
+# Localization
 
-A _.hi[localization economy]_ occurs when an increase in the size of an industry leads to an increase in productivity of production
-
-.center[.hi[Why?]]
+_.hi[Localization economy:]_ occurs when an increase in the size of an industry leads to an increase in productivity of production
 
 --
 
 Evidence of higher .hi[labor productivity]
-
 - Higher output $\rightarrow$ more productive workers (Henderson, 1986)
-  
-- Tech workers benefit more from .orange[knowledge spillovers] than manufacturing (Mun & Huchinson, 1995)
+- Tech workers benefit more from .hi[knowledge spillovers] than manufacturing (Mun & Huchinson, 1995)
 
 --
 
 Evidence of higher .hi[rates of entry]
-
 - More firms are born where .hii[output is higher]; that is, where the industry is clustered (Carlton, 1986)
 
 ---
-# Urbanization Economies
+# Urbanization
 
-_.hii[Urbanization Economies]_- the size of a city increases in productivity
-
-.center[.hi[Why?]]
+_.hi[Urbanization economy:]_ occurs when .hii[growth] in population increases in productivity within the economy
 
 --
 
-.hi[Sharing intermediate goods]: (banks, accountants, hotels, transportation)
-  
+.hi[Sharing inputs:] banks, accountants, hotels, transportation
+
 --
 
-.hi[Pooling]: workers move from industries with low demand to high demand
-- .orange[across] sector
+.hi[Pooling:] workers move .hii[across-industry] 
+- low demand to high demand
 
 --
   
@@ -446,60 +378,55 @@ _.hii[Urbanization Economies]_- the size of a city increases in productivity
 
 <br>
 
-Urbanization Economies result in .hi[large, diverse cities]
+Result in .hi[large and diverse] cities
 
 
 ---
 # Examples
 
-Two major examples of .hi[localization] & .hi.orange[urbanization] economies:
+Two major examples of .hi[localization] & .hii[urbanization] economies:
 
-1) .hi-blue[Silicon Valley]
+<br>
 
---
-
-- .hi[Localization]: firms locate close to each other to share .orange[high-skilled labor pool] despite very high rents
-
---
-
-
-2) .hi-blue[Los Angeles]
+.hi[(i) Silicon Valley]
+- firms locate close to share .hi-blue[high-skilled labor pool] despite high rents
 
 --
 
-- .hii[Urbanization]: No super dominant industries, yet it continues to grow
+
+.hii[(ii) Los Angeles]
+- no super dominant industries
+- large, diverse, and growing workforce
 
 ---
-class: inverse, middle, center
+class: inverse, middle
 # City Size
 
 ---
 # City Size
 
-.hi[Why are some cities big while others are small?]
-
---
-
-We've seen why agglomeration economies explain why .hi[firms] cluster.
-
---
-
-But how to agglomeration economies explain why .hii[people] cluster?
-
---
-
-- Agglomeration economies increase productivity and lead to higher wages in larger cities
+Why are some cities big while others are small?
+- We've shown why .hi[agglomeration] explain .hii[firms] clustering.
+- How does .hi[agglomeration] explain why .hii[people] cluster?
 
 --
 
 <br>
 
-.hi[Let's look at some data of city populations in the US]
+.hi[Agglomeration] increases productivity among its .hii[firms] and .hii[people]
+- leads to higher .hi[wages] in larger cities
+- higher wages incentivises migration decisions
+
+--
+
+<br>
+
+Let's look at some .hi[data] of city populations in the US
 
 ---
 # City Size in the US
 
-```{R, zipf_one, echo = F, fig.height = 5, fig.width = 8, dev = "svg"}
+```{R, zipf_one, echo = F, fig.height = 5, fig.width = 9, dev = "svg"}
 # population data
 zipf_data <- read_csv("./PEP_2018_PEPANNRSIP.US12A/PEP_2018_PEPANNRSIP.US12A_with_ann.csv") %>%
   janitor::clean_names() %>%
@@ -516,29 +443,31 @@ zipf_data <- read_csv("./PEP_2018_PEPANNRSIP.US12A/PEP_2018_PEPANNRSIP.US12A_wit
 ggplot(zipf_data) +
   geom_point(
     aes(x = gc_rank_rank_label, y = respop72018),
-    col = "purple"
+    col = blue
   ) +
-  theme_classic(base_family = "LM Roman 10") +
-  labs(x = "Rank", y = "Popluation", title = "City Size in the US") +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
+  labs(x = "Rank", y = "Popluation"
+       # , title = "City Size in the US"
+       ) +
   scale_y_continuous(labels = scales::comma)
 ```
 
 --
 
-There seems to be a functional relationship within city sizes and rank within a single country
+A functional relationship exists between population and rank within a country
 
 ---
 # What Function? f(x) = 1/x
 
-```{R, zipf_two, echo = F, fig.height = 5, fig.width = 8, dev = "svg"}
+```{R, zipf_two, echo = F, fig.height = 5, fig.width = 9, dev = "svg"}
 inverse <- function(x) 1 / x
 
 ggplot(data.frame(x = c(0, 1000)), aes(x)) +
-  stat_function(fun = inverse, col = "purple") +
+  stat_function(fun = inverse, col = blue, size = 1.5) +
   geom_vline(xintercept = 0, size = 0.5) +
   geom_hline(yintercept = 0, size = 0.5) +
   ylim(0, .05) +
-  ggthemes::theme_pander(base_family = "LM Roman 10") +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
   geom_text(x = 250, y = .01, label = latex2exp::TeX("function: $f(x) = \\frac{1}{x}$")) +
   labs(x = "x", y = "\nf(x)\n")
 ```
@@ -546,15 +475,15 @@ ggplot(data.frame(x = c(0, 1000)), aes(x)) +
 ---
 # What Function? Zipf's law
 
-```{R, zipf_three, echo = F, fig.height = 5, fig.width = 8, dev = "svg"}
+```{R, zipf_three, echo = F, fig.height = 5, fig.width = 9, dev = "svg"}
 inverse_2 <- function(x) 1000000 / x
 
 ggplot(data.frame(x = c(0, 1000)), aes(x)) +
-  stat_function(fun = inverse_2, col = "purple") +
+  stat_function(fun = inverse_2, col = blue, size = 1.5) +
   geom_vline(xintercept = 0, size = 0.5) +
   geom_hline(yintercept = 0, size = 0.5) +
   ylim(0, 80000) +
-  ggthemes::theme_pander(base_family = "LM Roman 10") +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
   geom_text(x = 250, y = 10000, label = latex2exp::TeX("function: $f(x) = \\frac{1000000}{x}$")) +
   labs(x = "x", y = "\nf(x)\n")
 ```
@@ -563,35 +492,34 @@ ggplot(data.frame(x = c(0, 1000)), aes(x)) +
 name: zipf
 # Size: Zipf's Law
 
-.hi[Zipf's Law] of city size can be expressed as:
+_Zipf's law_ of city size can be expressed as:
 
 \begin{align*}
-rank = \frac{C}{N}
+R = \frac{C}{N}
 \end{align*}
 
-.hi[Where]
-
+.hi[Where:]
+- R represents a country's population rank
 - C represents a constant for a country/region
-
 - N represents the population level
 
 --
 
-We can use the function described by Zipf's law to approximate city size based on rank
+We can use this function to approximate city size based on rank
 
 ---
 # Zipf's Law: Example
 
-Assume the .hi[third] ( _rank_ ) largest city in a region has .hii[200,000 people] ( $N$ )
+Assume the .hi[third] largest city in a region has .hii[200,000 people] ( $N$ )
 
-- Use Zipf's law to figure out how many people are in the _fifth-largest_ city
+- Use _Zipf's law_ to estimate the population in the .hi[fifth-largest] city
 
 
 .hi[Two steps:]
 
 --
 
-1) Calculate the constant $C$:
+.hi[(i)] Calculate the constant $C$:
 
 \begin{align*}
 3 &= \frac{C}{200,000}\\
@@ -600,56 +528,49 @@ C &=  600,000
 
 --
 
-2) Use that info to calculate the population of the 5th largest city:
+.hi[(ii)] Use that info to calculate the population of the .hi[fifth-largest] city:
 
 \begin{align*}
 5 &= \frac{600,000}{Pop_5}
 \end{align*}
 
+
 ---
-
-
-
+count: false
 # Zipf's Law: Example
 
-Assume the .hi[third] ( _rank_ ) largest city in a region has .hii[200,000 people] ( $N$ )
+Assume the .hi[third] largest city in a region has .hii[200,000 people] ( $N$ )
 
-- Use Zipf's law to figure out how many people are in the _fifth-largest_ city
+- Use _Zipf's law_ to estimate the population in the .hi[fifth-largest] city
 
 
 .hi[Two steps:]
 
-1) Calculate the constant $C$:
+.hi[(i)] Calculate the constant $C$:
 
 \begin{align*}
 3 &= \frac{C}{200,000}\\
 C &=  600,000
 \end{align*}
 
-2) Use that info to calculate the population of the 5th largest city:
+.hi[(ii)] Use that info to calculate the population of the .hi[fifth-largest] city:
 
 \begin{align*}
 5 &= \frac{600,000}{Pop_5} \implies Pop_5 = 120,000
 \end{align*}
 
 ---
-
-
 # Zipf's Law: Intuition
 
-.qa[Q]: In words, what does .hii[Zipf's law] tell us about the relationship between .hi[rank] and .hi[city size]?
+What does _Zipf's law_ describe about the relationship between .hi[rank] and .hi[city size]?
 
 --
 
-.qa[A1]: In words, this equation says:
+<br>
 
-  - .hi[A few] cities will be big
-
---
-
-  - There is a .hi[big drop] in population as rank increases
-  
-  - Most low rank (high number) cities are .hi[pretty similar] in size
+- a few cities will be big
+- there is a .hi[big drop] in population as rank increases
+- most low rank (high number) cities are .hi[pretty similar] in size
 
 ---
 # Example: Zipf's Law
@@ -669,8 +590,6 @@ C &=  600,000
 
 
 > A major city that works as the .hi[financial, political, and population center of a country] and is not rivaled in any of these aspects by any other city in that country.
-
---
 
 > "_at least twice as large as the next largest city and more than twice as significant."_
 
@@ -698,107 +617,85 @@ C &=  600,000
 
 
 ---
-
-# Why Primate Cities?
+# Primate Cities
 
 What might generate primate cities?
-
 - Large .hi[economies of scale] in exchange
-
 - Inadequate .hii[transportation infrastructure] elsewhere
 
 --
 
-- .hi[Political factors]?
-
---
-
-  - Easier for dictators to bribe, surveil populations of a primary city (?)
-  
-  -  Capital cities with dictatorships are _45%_ larger than capital cities of other countries
-    
-   - Is this relationship .hi.orange[causal]? <sup>.orange[†]</sup>
+.hi[Political factors:]
+- Easier for dictators to bribe, surveil populations of a primary city?
+-  Capital cities with dictatorships are _45%_ larger than capital cities of other countries
+- Is this relationship .hi-blue[causal]? <sup>.hii[†]</sup>
 
 --
 
 .footnote[
-.orange[†] Maybe somebody does. But you definitely can't say from the 45% number. Much of modern econ is about figuring out when relationships _are_ causal. For a completely unrelated, but informative and entertaining example, see [this video](https://www.youtube.com/watch?v=6YrIDhaUQOE&t=133s). 
+.hii[†] Maybe somebody does. But you definitely can't say from the 45% number. Much of modern econ is about figuring out when relationships _are_ causal. For a completely unrelated, but informative and entertaining example, see [this video](https://www.youtube.com/watch?v=6YrIDhaUQOE&t=133s). 
 ]
 
 ---
-# Why Zipf's Law?
+# Zipf's Law
 
-.qa[Q]: _Why does Zipf's Law_ do pretty well in general at describing city size?
-
---
-
-.qa[A]: __Axiom 2__: _.hi[Self-reinforcing effects] generate extreme outcomes_
-
-  - "Winner take all" situations from policies, agglomeration, knowledge spillovers, etc.
+Why is _Zipf's Law_ generally accurate in describing city size?
 
 --
 
-  - Wages grow, workers in, firms enter, $\rightarrow$ labor demand $\uparrow$ $\rightarrow$ wages grow . `r emo::ji("repeat")`
+.hi[A2:] _.hi[Self-reinforcing effects] generate extreme outcomes_
+
+"Winner take all" situations
+- policies, agglomeration, knowledge spillovers, etc.
+- Wages grow, workers in, firms enter, $\rightarrow$ labor demand $\uparrow$ $\rightarrow$ wages grow
   
 --
 
-.qa[Q]: What slows this process down?
+What slows this process down?
 
 --
 
-.center[.hi[Increases in costs lead to diseconomies of scale]]
+Increases in costs lead to .hi[diseconomies of scale]
 
 ---
 # Size
 
 Why do costs increase as workers move in? (Diseconomies of scale?)
 
-(i). .hi[Commute costs increase]
-
+.h[(i)] .hi[Commute costs]
   - More people $\implies$ more congestion (all else equal)
   
 --
 
-(ii). .hi.green[Pollution] increases
-
-  - More workers $\implies$ more production $\implies$ more .green[pollution]?
-
---
-
-(iii). .hii[Disease]
-
---
-  - Early 1900's (US), living in a city $\rightarrow$ life expectancy $\downarrow$ 5 years
-  
-  - Now, the US's largest cities life expectancy exceeds the national average
+.h[(ii)] .hi.green[Pollution]
+- More workers $\implies$ more production $\implies$ more .hi-green[pollution]
 
 --
 
-  - Life expectancy in cities is lower than rural areas in developing economies. .hi[Why?]
+.h[(iii)] .hii[Disease]
+- Early 1900's (US), living in a city $\rightarrow$ life expectancy $\downarrow$ 5 years
+- Now, the US's largest cities life expectancy exceeds the national average
+- Life expectancy in cities is, typically, lower than rural areas
 
 ---
 name: utility
-# Utility
+# Review: Utility
 
-.hi[Utility] is an abstract notion of peoples preferences. A few assumptions:
+Use it to .hi[model] the value individuals place on different city attributes
 
---
-
-What we use to model the values individuals place on different city attributes
+.hi[Utility] is an abstract notion of peoples preferences
 
 --
 
-.hi[(i).] Higher levels of utility are .hii[preferred] to lower levels. And more consumption is better than less
+.hi[Assumptions:]
 
-.hi[(ii).] .hi[_Ordinal, not cardinal._] Only the .hii[rank] matters, not the .hii[level]
-
---
-
-.hi[(iii).] Marginal utility is diminishing (marginal value is diminishing)
+- .hi[(i)] Higher levels of utility are .hii[preferred] to lower levels. And more consumption is better than less
+- .hi[(ii)] .hi[_Ordinal, not cardinal._] Only the .hii[rank] matters, not the .hii[level]
+- .hi[(iii)] Marginal utility is diminishing (marginal value is diminishing)
 
 --
 
-.center[.hi[Similar to the assumption that firms maximize profits, we also assume that individuals maximize utility]]
+Similar to business' maximizing profits, individuals maximize utility
 
 ---
 # Modeling City Size
@@ -806,9 +703,9 @@ What we use to model the values individuals place on different city attributes
 ```{R, u_f1, echo = F, dev = "svg"}
 u_f <- function(x) -x^3 + 1000 * x^2 + 100 * x
 ggplot(data.frame(x = c(-10, 900)), aes(x)) +
-  stat_function(fun = u_f, col = "purple") +
+  stat_function(fun = u_f, col = blue) +
   labs(x = "Workers (hundreds of thousands)", y = "Individual utility", title = "Individual Utility and City Size") +
-  theme_minimal(base_family = "LM Roman 10") +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
   geom_vline(xintercept = 0, size = 0.5) +
   geom_hline(yintercept = 0, size = 0.5) +
   geom_segment(x = 775, xend = 775, y = 0, yend = u_f(775), linetype = "dashed") +
@@ -823,19 +720,15 @@ ggplot(data.frame(x = c(-10, 900)), aes(x)) +
 ```
 
 ---
-
-
-
-
+count: false
 # Modeling City Size
-
 
 ```{R, u_f2, echo = F, dev = "svg"}
 u_f <- function(x) -x^3 + 1000 * x^2 + 100 * x
 ggplot(data.frame(x = c(-10, 900)), aes(x)) +
-  stat_function(fun = u_f, col = "purple") +
+  stat_function(fun = u_f, col = blue) +
   labs(x = "Workers (hundreds of thousands)", y = "Individual utility", title = "Individual Utility and City Size") +
-  theme_minimal(base_family = "LM Roman 10") +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
   geom_vline(xintercept = 0, size = 0.5) +
   geom_hline(yintercept = 0, size = 0.5) +
   geom_segment(x = 775, xend = 775, y = 0, yend = u_f(775), linetype = "dashed") +
@@ -864,9 +757,9 @@ ggplot(data.frame(x = c(-10, 900)), aes(x)) +
 ```{R, u_f3, echo = F, dev = "svg"}
 u_f <- function(x) -x^3 + 1000 * x^2 + 100 * x
 ggplot(data.frame(x = c(-10, 900)), aes(x)) +
-  stat_function(fun = u_f, col = "purple") +
+  stat_function(fun = u_f, col = blue) +
   labs(x = "Workers (hundreds of thousands)", y = "Individual utility", title = "Individual Utility and City Size") +
-  theme_minimal(base_family = "LM Roman 10") +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
   geom_vline(xintercept = 0, size = 0.5) +
   geom_hline(yintercept = 0, size = 0.5) +
   geom_segment(x = 775, xend = 775, y = 0, yend = u_f(775), linetype = "dashed") +
@@ -897,16 +790,14 @@ name: eq
 --
 
 In a system of cities, .hi[migration] has a .hii[self-correcting] effect
-- Locational Eq is stable when the utility curve is downward sloping
-  - $\implies$ Cities tend to be too large rather than too small
+
+Locational Eq is stable when the utility curve is downward sloping
+- which implies cities tend to be too large rather than too small
 
 --
 
-In practice, we usually do this by .hii[worker type] (demographic, income level, education, etc)
-  
-- For now, we will just consider the case when .hi[all workers are equivalent] (_but not cities_)
-
-- This assumption is mostly for accounting purposes. Best to start simple.
+We usually do this by .hii[worker type] (demographic, income, education, etc)
+- For now, we will just consider the case when .hi[all workers are equivalent]
 
 ---
 # Locational Eq Graph
@@ -919,11 +810,11 @@ u_f2 <- function(x) -x^3 + 890 * x^2 + 200 * x + 7000000 + .0002 * x^4
 u_f3 <- function(x) -x^3 + 900 * x^2 + 400 * x + 20000000 + .0002 * x^4
 
 ggplot(data.frame(x = c(-10, 1000)), aes(x)) +
-  stat_function(fun = u_f, col = "purple") +
-  stat_function(fun = u_f2, col = "turquoise") +
-  stat_function(fun = u_f3, col = red_pink) +
+  stat_function(fun = u_f, col = blue) +
+  stat_function(fun = u_f2, col = purple) +
+  stat_function(fun = u_f3, col = red) +
   labs(x = "Workers (hundreds of thousands)", y = "Individual utility", title = "Three Cities") +
-  theme_minimal(base_family = "LM Roman 10") +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
   geom_vline(xintercept = 0, size = 0.5) +
   geom_hline(yintercept = 0, size = 0.5) +
   theme(
@@ -946,19 +837,16 @@ ggplot(data.frame(x = c(-10, 1000)), aes(x)) +
 
 # Locational Eq: Implications
 
-Back to the .hi.orange[real world]: _Why is this framework useful?_
-
-  - If utility really has this shape, what does this mean for policy?
+_Why is this framework useful?_
+- If utility really has this shape, what does this mean for policy?
   
 --
 
 _Policies that impact the .hi[spatial distribution] of the population can have far flung effects on individuals it was not designed to impact, .hii[via migration]_
 
-
-.hi-blue[Example]:
-
 --
 
+.hi-blue[Example:]
 - Local school quality improvements $\rightarrow$ increased prices. Higher utility from school quality, lower from higher prices. Some people may be displaced? (Gentrification)
   
 --
@@ -967,13 +855,11 @@ _Policies that impact the .hi[spatial distribution] of the population can have f
     
 --
 
-More on this later in the term (.hii[place-based] policies). 
+More on this later in the term when we study _.hii[place-based] policies_
 
 ---
-
-
-class: inverse, middle, center
-# Intro to Growth
+class: inverse, middle
+# Growth
 
 ---
 name:growth_factors
@@ -985,7 +871,7 @@ name:growth_factors
 
 --
 
-.hi[Urban definition accounts for factors other than wage.] Such as:
+Urban definition accounts for factors .hi[other than wage.] Such as:
   
 --
 
@@ -1018,9 +904,9 @@ u_f <- function(x) -x^3 + 1000 * x^2 + 100 * x + 50000000
 u_f4 <- function(x) -x^3 + 1040 * x^2 + 1130 * x + 90000000
 
 ggplot(data.frame(x = c(-10, 1000)), aes(x)) +
-  stat_function(fun = u_f, col = "purple") +
+  stat_function(fun = u_f, col = blue) +
   labs(x = "Workers (hundreds of thousands)", y = "Individual utility", title = "Individual Utility and City Size") +
-  theme_minimal(base_family = "LM Roman 10") +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
   geom_vline(xintercept = 0, size = 0.5) +
   geom_hline(yintercept = 0, size = 0.5) +
   theme(
@@ -1050,10 +936,10 @@ u_f4 <- function(x) -x^3 + 1040 * x^2 + 1130 * x + 90000000
 
 
 ggplot(data.frame(x = c(-10, 1000)), aes(x)) +
-  stat_function(fun = u_f, col = "purple") +
-  stat_function(fun = u_f4, col = red_pink) +
+  stat_function(fun = u_f, col = blue) +
+  stat_function(fun = u_f4, col = purple) +
   labs(x = "Workers (hundreds of thousands)", y = "Individual utility", title = "Individual Utility and City Size") +
-  theme_minimal(base_family = "LM Roman 10") +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
   geom_vline(xintercept = 0, size = 0.5) +
   geom_hline(yintercept = 0, size = 0.5) +
   theme(
@@ -1086,10 +972,10 @@ u_f <- function(x) -x^3 + 1000 * x^2 + 100 * x + 50000000
 u_f4 <- function(x) -x^3 + 1000 * x^2 + 100 * x + 90000000
 
 ggplot(data.frame(x = c(-10, 1000)), aes(x)) +
-  stat_function(fun = u_f, col = "purple") +
-  stat_function(fun = u_f4, col = red_pink) +
+  stat_function(fun = u_f, col = blue) +
+  stat_function(fun = u_f4, col = purple) +
   labs(x = "Workers (hundreds of thousands)", y = "Individual utility", title = "Individual Utility and City Size") +
-  theme_minimal(base_family = "LM Roman 10") +
+  theme_ipsum(base_family = "Fira Sans Book", base_size = 8) +
   geom_vline(xintercept = 0, size = 0.5) +
   geom_hline(yintercept = 0, size = 0.5) +
   theme(
@@ -1117,7 +1003,7 @@ ggplot(data.frame(x = c(-10, 1000)), aes(x)) +
 .pull-right[
 .hi[Migration] induces workers toward the more productive city and away from the less productive city
 
-- .hi.orange[New locational eq] ( $u^*$ ): utility is equalized (higher than before). populations change 
+- .hii[New locational eq] ( $u^*$ ): utility is equalized (higher than before). populations change 
 ]
 
 
@@ -1127,7 +1013,7 @@ ggplot(data.frame(x = c(-10, 1000)), aes(x)) +
 
 - People are identical and perfectly mobile
 
-In real life high skilled workers are generally far more mobile than low skilled
+In real life high-skilled workers are far more mobile than low skilled
 
 ---
 # Example Recap
