@@ -40,7 +40,7 @@ __Set 04:__ Clustering, city size, and growth
 - [slide deck](slides/004-growth/04-growth.html)
 
 __Set 05:__ City shape
-- [slide deck](slides/005-growth/05-rents.html)
+- [slide deck](slides/005-rents/05-rents.html)
 
 
 
