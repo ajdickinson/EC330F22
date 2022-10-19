@@ -42,6 +42,8 @@ __Set 04:__ Clustering, city size, and growth
 __Set 05:__ City shape
 - [slide deck](slides/005-rents/05-rents.html)
 
+__Set 06:__ Neighborhood choice
+- [slide deck](slides/006-nbhd-choice/06-nbhd-choice.html)
 
 
 
