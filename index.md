@@ -11,6 +11,7 @@ Course material links:
   - [Syllabus](syllabus/working_syllabus_fall22.pdf)
   - Problem sets
 	- [PS01](problem-sets/ps01/ps01.pdf)
+    - [PS02](problem-sets/ps02/ps02.pdf)
   - External resources
 	- [Triumph of the Cities](resources/Triumph-of-the-City-Edward-Glaeser.pdf)
 	- [Urban Economics (O'Sullivan)](resources/O'Sullivan_Urban_Economics_8th.pdf) 
