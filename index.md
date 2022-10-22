@@ -29,19 +29,19 @@ __Reading:__
 ## Slide decks
 
 __Set 01:__ Introduction to urban economics (remote) 
-- [slide deck](slides/001-intro/01-intro.html), <!---[pdf](slides/001-intro/01-intro.pdf) -->
+- [slide deck](slides/001-intro/01-intro.html), [pdf](slides/001-intro/01-intro.pdf)
 
 __Set 02:__ Review + the 5 axioms of urban econmics
-- [slide deck](slides/002-review/02-review.html)
+- [slide deck](slides/002-review/02-review.html), [pdf](slides/002-review/02-review.pdf)
 
 __Set 03:__ Existence of cities
-- [slide deck](slides/003-size/03-size.html)
+- [slide deck](slides/003-size/03-size.html), [pdf](slides/003-size/03-size.pdf)
 
 __Set 04:__ Clustering, city size, and growth
-- [slide deck](slides/004-growth/04-growth.html)
+- [slide deck](slides/004-growth/04-growth.html), [pdf](slides/004-growth/04-growth.pdf)
 
 __Set 05:__ City shape
-- [slide deck](slides/005-rents/05-rents.html)
+- [slide deck](slides/005-rents/05-rents.html), [pdf](slides/005-rents/05-rents.pdf)
 
 __Set 06:__ Neighborhood choice
 - [slide deck](slides/006-nbhd-choice/06-nbhd-choice.html)
