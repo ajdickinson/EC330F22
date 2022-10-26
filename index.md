@@ -23,9 +23,8 @@ __Lectures:__ MW, 4:00-5:20p
 __Office hours:__ F 10:00-11:00a; MW 5:20-6:00p (after class)
 
 __Reading:__
-- week01: buy the book and read introduction
-- week02: buy the book, read intro and chapter 01
-  
+Read through chapter 5 in TotC before the midterm
+
 ## Slide decks
 
 __Set 01:__ Introduction to urban economics (remote) 
@@ -44,7 +43,9 @@ __Set 05:__ City shape
 - [slide deck](slides/005-rents/05-rents.html), [pdf](slides/005-rents/05-rents.pdf)
 
 __Set 06:__ Neighborhood choice
-- [slide deck](slides/006-nbhd-choice/06-nbhd-choice.html)
+- [slide deck](slides/006-nbhd-choice/06-nbhd-choice.html), [pdf](slides/006-nbhd-choice/06-nbhd-choice.pdf)
 
+__Set 07:__ Labor markets
+- [slide deck](slides/007-labor/07-labor.html) 
 
 
