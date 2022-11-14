@@ -13,7 +13,7 @@ Course material links:
 	- [PS01](problem-sets/ps01/ps01.pdf)
     - [PS02](problem-sets/ps02/ps02.pdf)
     - [PS03](problem-sets/ps03/ps03.pdf)
-  - [TofC book report](ec330-TotC-rubric)
+  - [TofC book report](ec330-TotC-rubric.pdf)
   - External resources
 	- [Triumph of the Cities](resources/Triumph-of-the-City-Edward-Glaeser.pdf)
 	- [Urban Economics (O'Sullivan)](resources/O'Sullivan_Urban_Economics_8th.pdf) 
