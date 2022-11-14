@@ -18,7 +18,7 @@ output:
 ```{R, setup, include = F}
 options(htmltools.dir.version = FALSE)
 pacman::p_load(
-  broom, here, tidyverse, latex2exp, ggplot2, ggthemes, viridis, extrafont,
+  broom, here, tidyverse, latex2exp, ggplot2, viridis, extrafont,
   gridExtra, kableExtra, dplyr, magrittr, knitr, emo, ggrepel, sf, hrbrthemes
 )
 
@@ -501,7 +501,8 @@ labor_supply <- function(x) 5+x
 
 
 
-ggplot(data.frame(x=c(0, 8)), aes(x)) +purple, size = 2)+
+ggplot(data.frame(x=c(0, 8)), aes(x)) +
+  stat_function(fun=labor_supply, col = purple, size = 2) +
   labs(x = "L",y = "W")+
   mytheme +
   geom_vline(xintercept = 0)+
@@ -514,7 +515,7 @@ ggplot(data.frame(x=c(0, 8)), aes(x)) +purple, size = 2)+
 # Labor Supply
 
 
-.qa[Question]: What happens when a city improves its school quality?
+.hi[q:] _What happens when a city improves its school quality?_
 
 --
 
@@ -528,7 +529,7 @@ ggplot(data.frame(x=c(0, 8)), aes(x)) +
   stat_function(fun=labor_supply, col = purple, size = 2)+
   stat_function(fun=labor_supply2, col = blue, size = 2)+
   labs(x = "L",y = "W")+
-  ggthemes::theme_pander()+
+  mytheme +
   geom_vline(xintercept = 0)+
   geom_hline(yintercept = 0)+ 
   geom_text(x = 2, y = labor_supply2(2), label = "better school quality", hjust=-.01) 
@@ -542,19 +543,13 @@ class: inverse, middle
 ---
 #Equilibrium 
 
-__Defn__
-
-  - A .hi[labor market equilibrium] is a pair of points $(L^*, W^*)$ such that:
-  
-    - labor supply = labor demand
-
-  - IE: a labor market eq is where there is no excess supply or demand
+.hi[Definition:] A .hi[labor market equilibrium] is a pair of points $(L^*, W^*)$ such that there is no excess supply or demand
+- quantity supplied $=$ quantity demanded
   
 --
 
-We usually think of cities as being "separate" labor markets, so the equilibria can be different across cities
-
---
+We think of cities as being "separate" labor markets
+- equilibria can be .hi-red[different] across cities
 
 ---
 # Equilibrium: Example
@@ -635,10 +630,10 @@ ld <- function(x)  40 - 5*x
 ls <- function(x)  5 + 2*x
 
 ggplot(data.frame(x=c(0, 15)), aes(x)) +
-  stat_function(fun=labor_demand, col = "purple")+
-  stat_function(fun= labor_supply, col = red_pink)+
+  stat_function(fun=labor_demand, col = purple)+
+  stat_function(fun= labor_supply, col = blue)+
   labs(x = "L",y = "W", title = "Labor market")+
-  hrbrthemes::theme_ipsum()+
+  mytheme +
   geom_vline(xintercept = 0)+
   geom_hline(yintercept = 0) +
   theme(
@@ -657,11 +652,15 @@ We built up labor .hi[supply] and .hi[demand]. Where do these come from?
 
 Recall our result about labor demand from earlier:
 
-.center[.hii[A firm will hire labor until labor costs (wage) exactly offsets the marginal revenue product of labor]]
+A firm will hire labor until labor costs (wage) .hi[exactly offsets] the .hii[marginal revenue product of labor]
 
 --
 
 Summing each firm's $MRP_L$ curve across the entire market generates the market labor demand curve
+
+--
+
+_que example_
 
 ---
 # Competitive model
@@ -687,13 +686,13 @@ Perfectly competitive is one extreme; what is the market structure on the other 
 .center[.hi[Monopsony]]
 
 ---
-class: inverse, middle, center
+class: inverse, middle
 # Monopsony
 
 ---
 # Monopsony
 
-.ul[.hi[Definition:]] .hi[Monopsony]
+.hi[Definition:] .hi[Monopsony]
 
 - A labor market situation which there is only .hi[one buyer]
 
@@ -789,13 +788,13 @@ Now
 
 --
 
-where $w(L)$ is an .pink[increasing function] of the .pink[amount of labor hired]
+where $w(L)$ is an .purple[increasing function] of the .purple[amount of labor hired]
 
 --
 
 Firm will hire labor until marginal cost is equalized to marginal benefit
   
-  - or: _.pink[marginal profit] wrt labor_ is equal to zero
+  - or: _.purple[marginal profit] wrt labor_ is equal to zero
   
 \begin{align*}
 \frac{\Delta \pi}{\Delta L} =0 
@@ -875,7 +874,7 @@ So the monoposonist hires until:
 MRP_L & = MC_L
 \end{align*}
 
-Compared to the competitve outcome:
+Compared to the competitive outcome:
 
 \begin{align*}
 MRP_L & = W
@@ -899,7 +898,7 @@ mc_1<-data.frame(
   v4 = c("","", "","", "")
 ) %>% kable(
   escape = F,
-  col.names = c(".pink[Wage]", ".purple[Labor]", "TC", ".hi[MC]"),
+  col.names = c(".purple[Wage]", ".purple[Labor]", "TC", ".hi[MC]"),
   align = c("c", "c", "c", "c"),
   caption = ""
 ) %>%
@@ -925,7 +924,7 @@ mc_2<-data.frame(
   v4 = c("","", "","", "")
 ) %>% kable(
   escape = F,
-  col.names = c(".pink[Wage]", ".purple[Labor]", "TC", ".hi[MC]"),
+  col.names = c(".purple[Wage]", ".purple[Labor]", "TC", ".hi[MC]"),
   align = c("c", "c", "c", "c"),
   caption = ""
 ) %>%
@@ -953,7 +952,7 @@ mc_3<-data.frame(
   v4 = c(1,3, 5, 7, 9)
 ) %>% kable(
   escape = F,
-  col.names = c(".pink[Wage]", ".purple[Labor]", "TC", ".hi[MC]"),
+  col.names = c(".purple[Wage]", ".purple[Labor]", "TC", ".hi[MC]"),
   align = c("c", "c", "c", "c"),
   caption = ""
 ) %>%
@@ -971,9 +970,7 @@ Let's fill in the table. What do you notice?
 
 --
 
-At .pink[every level of labor], the .purple[marginal cost of labor] exceeds the .pink[wage]
-
---
+At .hi[every level of labor], the marginal cost of labor .hi[is double] the wage
 
 
 ---
@@ -990,7 +987,7 @@ ggplot(data.frame(x=c(0, 7.5)), aes(x)) +
   stat_function(fun=ld, col = "black")+
   geom_vline(xintercept =0, size = 0.5)+
   geom_hline(yintercept =0, size = 0.5)+
-  ggthemes::theme_pander()+
+  mytheme +
   ylim(0,25)+
   geom_label(
     x=3,
@@ -1024,7 +1021,7 @@ ggplot(data.frame(x=c(0, 7.5)), aes(x)) +
   stat_function(fun=ld, col = "black")+
   geom_vline(xintercept =0, size = 0.5)+
   geom_hline(yintercept =0, size = 0.5)+
-  ggthemes::theme_pander()+
+  mytheme +
   ylim(0,25)+
   geom_label(
     x=3,
@@ -1115,8 +1112,8 @@ Is the following price floor binding?
 ```{R, min1, echo=F,fig.height = 5, fig.width = 8, dev = "svg", cache=T}
 
 ggplot(data.frame(x=c(0, 15)), aes(x)) +
-  stat_function(fun=labor_demand, col = "purple")+
-  stat_function(fun= labor_supply, col = red_pink)+
+  stat_function(fun=labor_demand, col = purple)+
+  stat_function(fun= labor_supply, col = blue)+
   labs(x = "L",y = "W")+
   ggthemes::theme_pander()+
   geom_vline(xintercept = 0)+
@@ -1134,8 +1131,8 @@ The following is .hi[nonbinding]
 ```{R, min1.5, echo=F,fig.height = 5, fig.width = 8, dev = "svg", cache=T}
 
 ggplot(data.frame(x=c(0, 15)), aes(x)) +
-  stat_function(fun=labor_demand, col = "purple")+
-  stat_function(fun= labor_supply, col = red_pink)+
+  stat_function(fun=labor_demand, col = purple)+
+  stat_function(fun= labor_supply, col = blue)+
   labs(x = "L",y = "W")+
   ggthemes::theme_pander()+
   geom_vline(xintercept = 0)+
@@ -1153,8 +1150,8 @@ Is the following binding?
 ```{R, min2, echo=F,fig.height = 5, fig.width = 8, dev = "svg", cache=T}
 
 ggplot(data.frame(x=c(0, 15)), aes(x)) +
-  stat_function(fun=labor_demand, col = "purple")+
-  stat_function(fun= labor_supply, col = red_pink)+
+  stat_function(fun=labor_demand, col = purple)+
+  stat_function(fun= labor_supply, col = blue)+
   labs(x = "L",y = "W")+
   ggthemes::theme_pander()+
   geom_vline(xintercept = 0)+
@@ -1172,8 +1169,8 @@ The following is .hi[binding]
 ```{R, min3, echo=F,fig.height = 5, fig.width = 8, dev = "svg", cache=T}
 
 ggplot(data.frame(x=c(0, 15)), aes(x)) +
-  stat_function(fun=labor_demand, col = "purple")+
-  stat_function(fun= labor_supply, col = red_pink)+
+  stat_function(fun=labor_demand, col = purple)+
+  stat_function(fun= labor_supply, col = blue)+
   labs(x = "L",y = "W")+
   ggthemes::theme_pander()+
   geom_vline(xintercept = 0)+
@@ -1190,8 +1187,8 @@ ggplot(data.frame(x=c(0, 15)), aes(x)) +
 ```{R, min4, echo=F,fig.height = 5, fig.width = 8, dev = "svg", cache=T}
 
 ggplot(data.frame(x=c(0, 15)), aes(x)) +
-  stat_function(fun=labor_demand, col = "purple")+
-  stat_function(fun= labor_supply, col = red_pink)+
+  stat_function(fun=labor_demand, col = purple)+
+  stat_function(fun= labor_supply, col = blue)+
   labs(x = "L",y = "W")+
   ggthemes::theme_pander()+
   geom_vline(xintercept = 0)+
@@ -1220,7 +1217,7 @@ demand_city1 <- function(x) 10 - 2*x
 supply_city1 <- function(x) 3 + 2*x
 
 ggplot(data.frame(x=c(0, 6)), aes(x)) +
-  stat_function(fun=demand_city1, col = "purple")+
+  stat_function(fun=demand_city1, col = purple)+
   stat_function(fun= supply_city1, col = "#A70000")+
   labs(x = "L",y = "W")+
   ggthemes::theme_pander()+
@@ -1244,7 +1241,7 @@ supply_city2 <- function(x) 4 + 4*x
 
 
 ggplot(data.frame(x=c(0, 5)), aes(x)) +
-  stat_function(fun=demand_city2, col = "purple")+
+  stat_function(fun=demand_city2, col = purple)+
   stat_function(fun= supply_city2, col = "#A70000")+
   labs(x = "L",y = "W")+
   ggthemes::theme_pander()+
@@ -1294,7 +1291,7 @@ exclude: true
 ---
 # Monopsony and Minimum Wage
 
-- So we saw the .pink[monopsonist] outcome leads to .hi[lower employment and wages] than the .pink[competitive outcome].
+- So we saw the .purple[monopsonist] outcome leads to .hi[lower employment and wages] than the .purple[competitive outcome].
 
 
 --
