@@ -12,6 +12,8 @@ Course material links:
   - Problem sets
 	- [PS01](problem-sets/ps01/ps01.pdf)
     - [PS02](problem-sets/ps02/ps02.pdf)
+    - [PS03](problem-sets/ps03/ps03.pdf)
+  - [TofC book report](ec330-TotC-rubric)
   - External resources
 	- [Triumph of the Cities](resources/Triumph-of-the-City-Edward-Glaeser.pdf)
 	- [Urban Economics (O'Sullivan)](resources/O'Sullivan_Urban_Economics_8th.pdf) 
@@ -48,4 +50,6 @@ __Set 06:__ Neighborhood choice
 __Set 07:__ Labor markets
 - [slide deck](slides/007-labor/07-labor.html) 
 
+__Set 08:__ MW and metrics
+- [slide deck](slides/008-mw-causality/08-mw-causality.html)
 
