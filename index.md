@@ -53,3 +53,5 @@ __Set 07:__ Labor markets
 __Set 08:__ MW and metrics
 - [slide deck](slides/008-mw-causality/08-mw-causality.html)
 
+__Set 09:__ Place-based policies
+- [slide deck](slides/009-pb-policy/09-pb-policy.html)
