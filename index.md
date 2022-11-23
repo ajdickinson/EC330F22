@@ -48,10 +48,13 @@ __Set 06:__ Neighborhood choice
 - [slide deck](slides/006-nbhd-choice/06-nbhd-choice.html), [pdf](slides/006-nbhd-choice/06-nbhd-choice.pdf)
 
 __Set 07:__ Labor markets
-- [slide deck](slides/007-labor/07-labor.html) 
+- [slide deck](slides/007-labor/07-labor.html), [pdf](slides/007-labor/07-labor.pdf)
 
 __Set 08:__ MW and metrics
-- [slide deck](slides/008-mw-causality/08-mw-causality.html)
+- [slide deck](slides/008-mw-causality/08-mw-causality.html), [pdf](slides/008-mw-causality/08-mw-causality.pdf)
 
 __Set 09:__ Place-based policies
-- [slide deck](slides/009-pb-policy/09-pb-policy.html)
+- [slide deck](slides/009-pb-policy/09-pb-policy.html), [pdf](slides/009-pb-policy/09-pb-policy.pdf)
+
+__Set 10:__ Housing
+- [slide deck](slides/010-housing/10-housing.html)

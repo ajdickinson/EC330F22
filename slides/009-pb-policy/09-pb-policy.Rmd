@@ -1,6 +1,6 @@
 ---
 title: "Place-based policies"
-subtitle: "Set 08"
+subtitle: "Set 09"
 author: "Andrew Dickinson"
 date: "Fall 2022"
 output:
@@ -137,7 +137,7 @@ Federal Minimum Wage: $7.25$ (not a place based policy)
 ---
 # Pb polcies: Enterpise zones
 
-.hi[.ul[Definition:] Enterprise zone]: 
+.hi[Definition: Enterprise zone]: 
 
 > A geographic area that has been granted .pink[tax breaks, regulatory exemptions, or other public assistance] in order to encourage private economic development and job creation
 
@@ -150,7 +150,7 @@ Examples:
 ---
 # Pb polcies: Brownfield remediation
 
-.hi[.ul[Definition:] Brownfield]: 
+.hi[Definition: Brownfield]: 
 
 > A geographic area that has previously been developed land that is not currently in use due to industrial and/or commerical pollution
 
@@ -345,7 +345,7 @@ Zoning restrictions $\implies$ limited housing supply $\implies$ high rents $\im
 ---
 # Utility framework
 
-.hi[Example]: Preferences over left-shoes and right-shoes may be expressed with the following utility function:
+.hi[Example:] Preferences .tiny[(.hii[Leontief])] over left-shoes and right-shoes may be expressed with the following utility function:
 
 \begin{align*}
 U(\text{left shoes},\text{right shoes}) = \min\left\{ \text{left shoes}, \text{right shoes}   \right\}
@@ -406,22 +406,20 @@ U_2(\text{left shoes},\text{right shoes}) = 10*\min\left\{ \text{left shoes}, \t
 # Utility framework: Locations
 
 _Could we write a .hi[utility] function over .hii[locations?]_
+--
+ .h[Yep!]
+ 
+--
+
+_What do people make location decisions on?_
 
 --
 
-.hii[Yep!]
+_What would a locational utility function take as .hi[inputs?]_
 
 --
 
-What would a locational utility function take as .hi[inputs?]
-
---
-
-What do people make location decisions on? 
-
---
-
-For now, assume people only care about 3 features of locations:
+For now, assume people only care about .hii[3] features of locations:
 
 --
   
@@ -482,7 +480,7 @@ Suppose our two locations are SF and OAK again. If:
 
 --
 
-.hi[Q] How do workers sort across the cities?
+.hi[Q:] How do workers sort across the cities?
 
 --
 
@@ -497,15 +495,15 @@ Suppose our two locations are SF and OAK again. If:
 ---
 # Utility framework: Locations
 
-.center[.hi[Is it reasonable that everyone would move to SF? What are we missing?]]
+_Is it .hi[reasonable] that everyone would move to SF? What are we missing?_
 
 --
 
-.center[.hi[Was that last example an example in locational equilibrium?]]
-
+_Was that last example a locational equilibrium by definition?_
 --
-
-.center[.hii[No!]]
+ .hii[Nope]
+ 
+--
 
 In .hi[locational equilibrium], utility is .hii[equalized across locations]
 
@@ -517,7 +515,7 @@ Can't have: $U(w_{SF}, r_{SF}, a_{SF}) > U(w_{OAK}, r_{OAK}, a_{OAK})$
 
 <br>
 
-.center[.hi[How can we use locational eq to "fix up" our last example?]]
+_How can .hi["fix up"] our last example such that we model locational eq?_
 
 --
 
@@ -532,17 +530,20 @@ We can .hi[allow rents] (or wages or both) .hi[to adjust] such that utility is e
 --
 
 .hi[Thus far], we assume .hi[wages] and .hii[rents] are exogenous
-- Fall from the sky, do not change with location decisions
+<!-- - Fall from the sky, do not change with location decisions -->
+
+<br>
 
 --
 
-.center[This is a .hi[bad assumption] right?]
+_This is a .hi[bad assumption] right?_
 
 --
+
+<br>
 
 Let rents, but not wages, adjust to individual location decisions
-
-- Make rents .hii[endogenous] to the model
+- (ie make rents .hii[endogenous] to the model)
 
 ---
 # Utility framework: Rents
