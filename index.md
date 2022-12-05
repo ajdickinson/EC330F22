@@ -59,3 +59,9 @@ __Set 09:__ Place-based policies
 
 __Set 10:__ Housing
 - [slide deck](slides/010-housing/10-housing.html)
+
+__Set 11:__ Autos
+- [slide deck](slides/011-auto/11-auto.html)
+
+__Set 12:__ Opportunity
+- [slide deck](slides/015-opportunity/15-opportunity.html)
