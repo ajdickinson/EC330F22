@@ -66,8 +66,3 @@ __Set 11:__ Autos
 __Set 12:__ Opportunity
 - [slide deck](slides/015-opportunity/15-opportunity.html)
 
-
-
-
-
-[temp link](grants-temp/kleinsorge-23.html)
